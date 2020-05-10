@@ -5,7 +5,6 @@ struct listNode {
 	int data;
 	unsigned int hash;
 	struct listNode *nextPtr;
-	struct branchNode *rightBranchPtr;
 };
 
 typedef struct listNode ListNode;
